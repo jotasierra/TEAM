@@ -1,12 +1,12 @@
 using System;
 
-namespace Mensajeria.App.Dominio
+namespace ProyectoEnvios.App.Dominio.Entidades
 {
     public class Cliente
     {
         //geteamos y seteamos todos los atributos de la clase o tabla
         //ahora se llaman propiedades
-        public int cli_id {get; set;}
+        public int Id {get; set;}
         public string cli_tipo_documento {get; set;}
         public string cli_num_documento {get; set;}
         public string cli_nombre {get; set;}
