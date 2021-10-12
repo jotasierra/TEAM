@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JZAGjOGQecZKJ11xbLMeFMTc8pTStd1ikoBEEsy+qVm4OTYXdL+RFFI/Bv5imgtaLqQpdxr8Eq/ljM/H/MEdOA==",
+  "success": true,
+  "projectFilePath": "C:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Dominio\\ProyectoEnvios.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Geed\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Geed\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
