@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Geed\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Geed\\.nuget\\packages"
+    ]
+  }
+}
