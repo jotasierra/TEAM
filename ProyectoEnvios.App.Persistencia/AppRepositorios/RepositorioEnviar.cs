@@ -4,7 +4,7 @@ using ProyectoEnvios.App.Dominio;
 
 namespace ProyectoEnvios.App.Persistencia
 {
-    public class RepositorioEnviar:IRepositorioEnviar
+    public class RepositorioEnviar : IRepositorioEnviar
     {
         private readonly AppContext _appContext;
         public RepositorioEnviar(AppContext appContext)
