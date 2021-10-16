@@ -27,16 +27,16 @@ namespace ProyectoEnvios.App.Persistencia
         }
 
         
-        Mercancia IRepositorioMercancia.UpdateMercancia(Mercancia cercancia)
+        Mercancia IRepositorioMercancia.UpdateMercancia(Mercancia mercancia)
         {
             var mercanciaEncontrado = _appContext.Mercancias.FirstOrDefault(m => m.Id == mercancia.Id);
             if (mercanciaEncontrado != null)
             {
-                mercancia.Encontrado.mer_alto=mercancia.mer_alto;
-                mercancia.Encontrado.mer_largo=mercancia.mer_largo;
-                mercancia.Encontrado.mer_ancho=mercancia.mer_ancho;
-                mercancia.Encontrado.mer_peso=mercancia.mer_peso;
-                mercancia.Encontrado.mer_liquidarTarifa=mercancia.mer_liquidarTarifa;
+                mercanciaEncontrado.mer_alto=mercancia.mer_alto;
+                mercanciaEncontrado.mer_largo=mercancia.mer_largo;
+                mercanciaEncontrado.mer_ancho=mercancia.mer_ancho;
+                mercanciaEncontrado.mer_peso=mercancia.mer_peso;
+                mercanciaEncontrado.mer_liquidarTarifa=mercancia.mer_liquidarTarifa;
                 mercanciaEncontrado.mer_valorDeclarado=mercancia.mer_valorDeclarado;
 
                 _appContext.SaveChanges();

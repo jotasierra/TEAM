@@ -18,7 +18,7 @@ namespace ProyectoEnvios.App.Persistencia
         }
 
         
-        Factura IRepositorioFactura.AddFactura(Cliente factura)
+        Factura IRepositorioFactura.AddFactura(Factura factura)
         {
             var facturaAgregado = _appContext.Facturas.Add(factura);
             _appContext.SaveChanges();

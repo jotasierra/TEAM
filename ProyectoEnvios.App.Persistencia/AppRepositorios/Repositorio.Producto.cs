@@ -32,7 +32,7 @@ namespace ProyectoEnvios.App.Persistencia
             var productoEncontrado = _appContext.Productos.FirstOrDefault(d => d.Id == producto.Id);
             if (productoEncontrado != null)
             {
-                producto.Encontrado.pro_nombre=producto.pro_nombre;
+                productoEncontrado.pro_nombre=producto.pro_nombre;
                 _appContext.SaveChanges();
             }
             return productoEncontrado;

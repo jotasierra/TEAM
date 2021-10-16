@@ -29,8 +29,8 @@ namespace ProyectoEnvios.App.Persistencia
         
         Paquete IRepositorioPaquete.UpdatePaquete(Paquete paquete)
         {
-            var clienteEncontrado = _appContext.Clientes.FirstOrDefault(q => q.Id == cliente.Id);
-            if (clienteEncontrado != null)
+            var paqueteEncontrado = _appContext.Paquetes.FirstOrDefault(q => q.Id == paquete.Id);
+            if (paqueteEncontrado != null)
             {
                 paqueteEncontrado.paq_peso=paquete.paq_peso;
                 paqueteEncontrado.paq_liquidarTarifa=paquete.paq_liquidarTarifa;

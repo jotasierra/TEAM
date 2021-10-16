@@ -27,7 +27,7 @@ namespace ProyectoEnvios.App.Persistencia
         Funcionario IRepositorioFuncionario.UpdateFuncionario(Funcionario funcionario)
         {
             var funcionarioEncontrado = _appContext.Funcionarios.FirstOrDefault(u => u.Id == funcionario.Id);
-            if (clienteEncontrado != null)
+            if (funcionarioEncontrado != null)
             {
                 funcionarioEncontrado.fun_nombre =funcionario.fun_nombre;
                 funcionarioEncontrado.fun_apellidos=funcionario.fun_apellidos;
@@ -38,7 +38,7 @@ namespace ProyectoEnvios.App.Persistencia
         }
 
         
-        void IRepositorioFuncionario.DeleteFuncionario(int idfuncionario)
+        void IRepositorioFuncionario.DeleteFuncionario(int idFuncionario)
         {
             var funcionarioEncontrado = _appContext.Funcionarios.FirstOrDefault(u => u.Id == idFuncionario);
             if (funcionarioEncontrado == null)
