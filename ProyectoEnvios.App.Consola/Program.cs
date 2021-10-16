@@ -7,12 +7,24 @@ namespace ProyectoEnvios.App.Consola
     class Program
     {
         private static IRepositorioCliente _repositorioCliente = new RepositorioCliente(new Persistencia.AppContext());
+        private static IRepositorioFuncionario _repositorioFuncionario = new RepositorioFuncionario(new Persistencia.AppContext());
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! [TESTING]");
-            AddCliente();
+            Console.WriteLine("Agregando funcionario [TESTING]...");
+            //AddCliente();
             //DeleteCliente(1);
+            AddFuncionario();
+        }
+
+        private static void AddFuncionario()
+        {
+            var funcionario = new Funcionario
+            {
+                fun_nombre = "[TEST]Javier",
+                fun_apellidos = "[TEST]Testing"
+            };
+            _repositorioFuncionario.AddFuncionario();
         }
 
         private static void AddCliente()
