@@ -36,3 +36,4 @@ C:\projects\ProyectoEnvios.App\TEAM\ProyectoEnvios.App.Presentacion\obj\Debug\ne
 C:\projects\ProyectoEnvios.App\TEAM\ProyectoEnvios.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoEnvios.App.Presentacion.genruntimeconfig.cache
 C:\projects\ProyectoEnvios.App\TEAM\ProyectoEnvios.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoEnvios.App.Presentacion.csproj.CopyComplete
 C:\projects\ProyectoEnvios.App\TEAM\ProyectoEnvios.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Inicio.cshtml.g.cs
+C:\projects\ProyectoEnvios.App\TEAM\ProyectoEnvios.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Tabs\Inicio.cshtml.g.cs
