@@ -14412,11 +14412,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\Inicio.cshtml",
-      "TargetPath": "Pages\\Inicio.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
