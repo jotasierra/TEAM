@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "FilePath": "c:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Presentacion\\ProyectoEnvios.App.Presentacion.csproj",
-=======
-  "FilePath": "c:\\projects\\TEAM\\ProyectoEnvios.App.Presentacion\\ProyectoEnvios.App.Presentacion.csproj",
->>>>>>> 021e8cb04d45284e017143da75d37f7e3c5f208d
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14406,7 +14402,6 @@
   "RootNamespace": "ProyectoEnvios.App.Presentacion",
   "Documents": [
     {
-<<<<<<< HEAD
       "FilePath": "c:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
@@ -14414,6 +14409,11 @@
     {
       "FilePath": "c:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\Inicio.cshtml",
+      "TargetPath": "Pages\\Inicio.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14437,47 +14437,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-=======
-      "FilePath": "c:\\projects\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\projects\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\Clientes\\List.cshtml",
+      "FilePath": "c:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\Clientes\\List.cshtml",
       "TargetPath": "Pages\\Clientes\\List.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\projects\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\Index.cshtml",
+      "FilePath": "c:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\Tabs\\Inicio.cshtml",
+      "TargetPath": "Pages\\Tabs\\Inicio.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\projects\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\projects\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\projects\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\projects\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\projects\\TEAM\\ProyectoEnvios.App.Presentacion\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
->>>>>>> 021e8cb04d45284e017143da75d37f7e3c5f208d
       "FileKind": "mvc"
     }
   ],

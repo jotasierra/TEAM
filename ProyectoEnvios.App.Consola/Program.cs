@@ -24,7 +24,7 @@ namespace ProyectoEnvios.App.Consola
                 fun_nombre = "[TEST]Javier",
                 fun_apellidos = "[TEST]Testing"
             };
-            _repositorioFuncionario.AddFuncionario();
+            _repositorioFuncionario.AddFuncionario(funcionario);
         }
 
         private static void AddCliente()

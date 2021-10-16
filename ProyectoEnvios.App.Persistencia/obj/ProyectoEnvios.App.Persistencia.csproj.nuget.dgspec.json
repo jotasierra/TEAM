@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\project\\TEAM\\ProyectoEnvios.App.Persistencia\\ProyectoEnvios.App.Persistencia.csproj": {}
+    "C:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Persistencia\\ProyectoEnvios.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\project\\TEAM\\ProyectoEnvios.App.Dominio\\ProyectoEnvios.App.Dominio.csproj": {
+    "C:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Dominio\\ProyectoEnvios.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\project\\TEAM\\ProyectoEnvios.App.Dominio\\ProyectoEnvios.App.Dominio.csproj",
+        "projectUniqueName": "C:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Dominio\\ProyectoEnvios.App.Dominio.csproj",
         "projectName": "ProyectoEnvios.App.Dominio",
-        "projectPath": "C:\\project\\TEAM\\ProyectoEnvios.App.Dominio\\ProyectoEnvios.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\project\\TEAM\\ProyectoEnvios.App.Dominio\\obj\\",
+        "projectPath": "C:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Dominio\\ProyectoEnvios.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Geed\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Geed\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -57,17 +57,17 @@
         }
       }
     },
-    "C:\\project\\TEAM\\ProyectoEnvios.App.Persistencia\\ProyectoEnvios.App.Persistencia.csproj": {
+    "C:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Persistencia\\ProyectoEnvios.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\project\\TEAM\\ProyectoEnvios.App.Persistencia\\ProyectoEnvios.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Persistencia\\ProyectoEnvios.App.Persistencia.csproj",
         "projectName": "ProyectoEnvios.App.Persistencia",
-        "projectPath": "C:\\project\\TEAM\\ProyectoEnvios.App.Persistencia\\ProyectoEnvios.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\project\\TEAM\\ProyectoEnvios.App.Persistencia\\obj\\",
+        "projectPath": "C:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Persistencia\\ProyectoEnvios.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Geed\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Geed\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -78,8 +78,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\project\\TEAM\\ProyectoEnvios.App.Dominio\\ProyectoEnvios.App.Dominio.csproj": {
-                "projectPath": "C:\\project\\TEAM\\ProyectoEnvios.App.Dominio\\ProyectoEnvios.App.Dominio.csproj"
+              "C:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Dominio\\ProyectoEnvios.App.Dominio.csproj": {
+                "projectPath": "C:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Dominio\\ProyectoEnvios.App.Dominio.csproj"
               }
             }
           }

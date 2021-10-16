@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\projects\\ProyectoEnvios.App\\TEAM\\ProyectoEnvios.App.Presentacion\\ProyectoEnvios.App.Presentacion.csproj": {}
   },
   "projects": {
@@ -16,22 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Geed\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-    "C:\\projects\\TEAM\\ProyectoEnvios.App.Presentacion\\ProyectoEnvios.App.Presentacion.csproj": {}
-  },
-  "projects": {
-    "C:\\projects\\TEAM\\ProyectoEnvios.App.Presentacion\\ProyectoEnvios.App.Presentacion.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\projects\\TEAM\\ProyectoEnvios.App.Presentacion\\ProyectoEnvios.App.Presentacion.csproj",
-        "projectName": "ProyectoEnvios.App.Presentacion",
-        "projectPath": "C:\\projects\\TEAM\\ProyectoEnvios.App.Presentacion\\ProyectoEnvios.App.Presentacion.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\TEAM\\ProyectoEnvios.App.Presentacion\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 021e8cb04d45284e017143da75d37f7e3c5f208d
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -70,11 +53,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
->>>>>>> 021e8cb04d45284e017143da75d37f7e3c5f208d
         }
       }
     }
