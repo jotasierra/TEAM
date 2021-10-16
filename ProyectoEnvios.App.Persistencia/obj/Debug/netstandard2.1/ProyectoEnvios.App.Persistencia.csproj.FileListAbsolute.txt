@@ -22,3 +22,15 @@ C:\projects\ProyectoEnvios.App\TEAM\ProyectoEnvios.App.Persistencia\obj\Debug\ne
 C:\projects\ProyectoEnvios.App\TEAM\ProyectoEnvios.App.Persistencia\obj\Debug\netstandard2.1\ProyectoEnvios.App.Persistencia.csproj.CopyComplete
 C:\projects\ProyectoEnvios.App\TEAM\ProyectoEnvios.App.Persistencia\obj\Debug\netstandard2.1\ProyectoEnvios.App.Persistencia.dll
 C:\projects\ProyectoEnvios.App\TEAM\ProyectoEnvios.App.Persistencia\obj\Debug\netstandard2.1\ProyectoEnvios.App.Persistencia.pdb
+C:\project\TEAM\ProyectoEnvios.App.Persistencia\bin\Debug\netstandard2.1\ProyectoEnvios.App.Persistencia.deps.json
+C:\project\TEAM\ProyectoEnvios.App.Persistencia\bin\Debug\netstandard2.1\ProyectoEnvios.App.Persistencia.dll
+C:\project\TEAM\ProyectoEnvios.App.Persistencia\bin\Debug\netstandard2.1\ProyectoEnvios.App.Persistencia.pdb
+C:\project\TEAM\ProyectoEnvios.App.Persistencia\bin\Debug\netstandard2.1\ProyectoEnvios.App.Dominio.dll
+C:\project\TEAM\ProyectoEnvios.App.Persistencia\bin\Debug\netstandard2.1\ProyectoEnvios.App.Dominio.pdb
+C:\project\TEAM\ProyectoEnvios.App.Persistencia\obj\Debug\netstandard2.1\ProyectoEnvios.App.Persistencia.csprojAssemblyReference.cache
+C:\project\TEAM\ProyectoEnvios.App.Persistencia\obj\Debug\netstandard2.1\ProyectoEnvios.App.Persistencia.AssemblyInfoInputs.cache
+C:\project\TEAM\ProyectoEnvios.App.Persistencia\obj\Debug\netstandard2.1\ProyectoEnvios.App.Persistencia.AssemblyInfo.cs
+C:\project\TEAM\ProyectoEnvios.App.Persistencia\obj\Debug\netstandard2.1\ProyectoEnvios.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\project\TEAM\ProyectoEnvios.App.Persistencia\obj\Debug\netstandard2.1\ProyectoEnvios.App.Persistencia.csproj.CopyComplete
+C:\project\TEAM\ProyectoEnvios.App.Persistencia\obj\Debug\netstandard2.1\ProyectoEnvios.App.Persistencia.dll
+C:\project\TEAM\ProyectoEnvios.App.Persistencia\obj\Debug\netstandard2.1\ProyectoEnvios.App.Persistencia.pdb
