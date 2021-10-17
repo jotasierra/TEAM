@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using ProyectoEnvios.App.Dominio;
 
-namespace ProyectoEnvios.App.Persistencia
+namespace ProyectoEnvios.App.Persistencia.AppRepositorios
 {
     public interface IRepositorioEnviar
 

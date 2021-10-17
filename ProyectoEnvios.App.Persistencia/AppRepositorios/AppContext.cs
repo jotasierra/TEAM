@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProyectoEnvios.App.Dominio;
 
-namespace ProyectoEnvios.App.Persistencia
+namespace ProyectoEnvios.App.Persistencia.AppRepositorios
 {
     public class AppContext : DbContext
     {

@@ -1,0 +1,39 @@
+﻿@page
+@model ProyectoEnvios.App.Presentacion.DetallesModel
+@{
+}
+
+<h2>Información Completa</h2><br>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col"># ID</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Apellido</th>
+      <th scope="col">Tipo de Documento</th>
+      <th scope="col"># de Documento</th>
+      <th scope="col">Email</th>
+      <th scope="col"># de Teléfono</th>
+      <th scope="col">Dirección</th>
+    </tr>
+  </thead>
+  @foreach (var cliente in Model.Clientes)
+  {
+      <tbody>
+          <tr scope="row">
+              <td>@cliente.Id</td>
+              <td>@cliente.cli_nombre</td>
+              <td>@cliente.cli_apellidos</td>
+              <td>@cliente.cli_tipo_documento</td>
+              <td>@cliente.cli_num_documento</td>
+              <td>@cliente.cli_email</td>
+              <td>@cliente.cli_telefono</td>
+              <td>@cliente.cli_direccion</td>
+              <td>
+                <a class="btn btn-primary" asp-page="./InformacionCliente" asp-route-clienteId="@cliente.Id">
+                  <i class="far fa-eye"></i>
+                </a>
+              </td>
+          </tr>
+      </tbody>
+  }

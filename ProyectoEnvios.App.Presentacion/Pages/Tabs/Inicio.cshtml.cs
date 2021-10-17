@@ -6,20 +6,32 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using ProyectoEnvios.App.Persistencia.AppRepositorios;
+using ProyectoEnvios.App.Dominio;
 
 namespace ProyectoEnvios.App.Presentacion.Pages
 {
     public class InicioModel : PageModel
     {
-        private readonly ILogger<InicioModel> _logger;
+        private readonly IRepositorioCliente repositorioCliente;
 
-        public InicioModel(ILogger<InicioModel> logger)
+        public IEnumerable<Cliente> Clientes {get; set;}
+
+        public InicioModel(IRepositorioCliente repositorioCliente)
         {
-            _logger = logger;
+            this.repositorioCliente = repositorioCliente;
         }
+
+        //private readonly ILogger<InicioModel> _logger;
+
+        //public InicioModel(ILogger<InicioModel> logger)
+        //{
+        //    _logger = logger;
+        //}
 
         public void OnGet()
         {
+            Clientes = repositorioCliente.GetAllClientes();
         }
     }
 }
