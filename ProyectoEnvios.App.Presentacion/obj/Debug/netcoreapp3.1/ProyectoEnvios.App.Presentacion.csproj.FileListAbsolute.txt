@@ -124,3 +124,5 @@ C:\projects\ProyectoEnvios.App\TEAM\ProyectoEnvios.App.Presentacion\bin\Debug\ne
 C:\projects\ProyectoEnvios.App\TEAM\ProyectoEnvios.App.Presentacion\bin\Debug\netcoreapp3.1\ProyectoEnvios.App.Dominio.pdb
 C:\projects\ProyectoEnvios.App\TEAM\ProyectoEnvios.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Tabs\ListadoClientes.cshtml.g.cs
 C:\projects\ProyectoEnvios.App\TEAM\ProyectoEnvios.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Tabs\Detalles.cshtml.g.cs
+C:\projects\ProyectoEnvios.App\TEAM\ProyectoEnvios.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Tabs\Editar.cshtml.g.cs
+C:\projects\ProyectoEnvios.App\TEAM\ProyectoEnvios.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Tabs\Eliminar.cshtml.g.cs

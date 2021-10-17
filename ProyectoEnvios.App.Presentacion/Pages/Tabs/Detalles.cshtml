@@ -1,9 +1,10 @@
 ﻿@page
-@model ProyectoEnvios.App.Presentacion.DetallesModel
+@model ProyectoEnvios.App.Presentacion.Pages.DetallesModel
 @{
+  int idCliente = Model.cliente.Id;
 }
 
-<h2>Información Completa</h2><br>
+<h2>Información Completa del Cliente</h2><br>
 <table class="table">
   <thead class="thead-dark">
     <tr>
@@ -17,23 +18,15 @@
       <th scope="col">Dirección</th>
     </tr>
   </thead>
-  @foreach (var cliente in Model.Clientes)
-  {
-      <tbody>
-          <tr scope="row">
-              <td>@cliente.Id</td>
-              <td>@cliente.cli_nombre</td>
-              <td>@cliente.cli_apellidos</td>
-              <td>@cliente.cli_tipo_documento</td>
-              <td>@cliente.cli_num_documento</td>
-              <td>@cliente.cli_email</td>
-              <td>@cliente.cli_telefono</td>
-              <td>@cliente.cli_direccion</td>
-              <td>
-                <a class="btn btn-primary" asp-page="./InformacionCliente" asp-route-clienteId="@cliente.Id">
-                  <i class="far fa-eye"></i>
-                </a>
-              </td>
-          </tr>
-      </tbody>
-  }
+    <tbody>
+      <tr scope="row">
+        <td>@Model.cliente.Id</td>
+        <td>@Model.cliente.cli_nombre</td>
+        <td>@Model.cliente.cli_apellidos</td>
+        <td>@Model.cliente.cli_tipo_documento</td>
+        <td>@Model.cliente.cli_num_documento</td>
+        <td>@Model.cliente.cli_email</td>
+        <td>@Model.cliente.cli_telefono</td>
+        <td>@Model.cliente.cli_direccion</td>
+      </tr>
+    </tbody>

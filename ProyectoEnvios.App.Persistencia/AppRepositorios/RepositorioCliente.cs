@@ -6,6 +6,8 @@ namespace ProyectoEnvios.App.Persistencia.AppRepositorios
 {
     public class RepositorioCliente : IRepositorioCliente
     {
+
+        public IEnumerable<Cliente> clientes {get; set;} 
         private readonly AppContext _appContext;
         public RepositorioCliente(AppContext appContext)
         {
@@ -13,9 +15,14 @@ namespace ProyectoEnvios.App.Persistencia.AppRepositorios
         }
 
         //Implementa método "GetAllClientes" de IRepositorioCliente
-        IEnumerable<Cliente> IRepositorioCliente.GetAllClientes()
+        IEnumerable<Cliente> IRepositorioCliente.GetAllClientes(string? nombreCliente)
         {
-            return _appContext.Clientes;
+            if (nombreCliente != null) {
+              clientes = _appContext.Clientes.Where(c => c.cli_nombre.Contains(nombreCliente));
+            }
+            else 
+               clientes = _appContext.Clientes;
+            return clientes;
         }
 
         //Implementa método "AddCliente" de IRepositorioCliente
@@ -56,7 +63,7 @@ namespace ProyectoEnvios.App.Persistencia.AppRepositorios
         }
 
         //Implementa método "GetCliente" de IRepositorioCliente
-        Cliente IRepositorioCliente.GetCliente(int idCliente)
+        Cliente IRepositorioCliente.GetCliente(int? idCliente)
         {
             return _appContext.Clientes.FirstOrDefault(c => c.Id == idCliente);
         }

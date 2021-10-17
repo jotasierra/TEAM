@@ -6,7 +6,7 @@ namespace ProyectoEnvios.App.Persistencia.AppRepositorios
     public interface IRepositorioCliente
     {
          //Método para obtener TODOS los clientes
-         IEnumerable<Cliente> GetAllClientes();
+         IEnumerable<Cliente> GetAllClientes(string? nombreCliente);
 
          //Método para agregar un nuevo cliente
          Cliente AddCliente(Cliente cliente);
@@ -18,7 +18,7 @@ namespace ProyectoEnvios.App.Persistencia.AppRepositorios
          void DeleteCliente(int idCliente);
 
          //Método para obtener 1 cliente específico
-         Cliente GetCliente(int idCliente);
+         Cliente GetCliente(int? idCliente);
 
     }
 }

@@ -1,12 +1,14 @@
 ﻿@page
-@model ProyectoEnvios.App.Presentacion.Pages.InicioModel
+@model ProyectoEnvios.App.Presentacion.Pages.EditarModel
+
 @{
-  var buscarCliente = Model.buscarCliente;
+    int idCliente = Model.cliente.Id;
 }
 
+<h2>Edición de Datos</h2><br>
 <form method="post">
-  <h2>Datos del cliente</h2><br>
-  <div class="form-row">
+    <input type="hidden" asp-for="cliente.Id" />    
+    <div class="form-row">
     <div class="col">
       <label for="nombreCliente">Nombre</label>
       <input type="text" asp-for="cliente.cli_nombre" class="form-control" placeholder="Digite nombre del cliente">
@@ -52,5 +54,5 @@
   <div class="alert alert-dark" role="alert">
     ¡Click en el botón "Guardar" para actualizar información del cliente!
   </div>
-  <button type="submit" class="btn btn-primary">Guardar</button>
+  <button type="submit" class="btn btn-success">Guardar</button>  
 </form>

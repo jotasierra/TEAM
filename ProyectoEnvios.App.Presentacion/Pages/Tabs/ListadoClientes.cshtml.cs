@@ -17,6 +17,8 @@ namespace ProyectoEnvios.App.Presentacion.Pages
 
         public IEnumerable<Cliente> Clientes { get; set; }
 
+        public string buscarCliente;
+
         public ListadoClientesModel(IRepositorioCliente repositorioCliente)
         {
             this.repositorioCliente = repositorioCliente;
@@ -31,7 +33,17 @@ namespace ProyectoEnvios.App.Presentacion.Pages
 
         public void OnGet()
         {
-            Clientes = repositorioCliente.GetAllClientes();
+            Clientes = repositorioCliente.GetAllClientes(buscarCliente);
+        }
+
+        public IActionResult OnPost(string? buscarCliente)
+        {
+            if(!ModelState.IsValid)
+            {
+                return Page();
+            }
+            Clientes = repositorioCliente.GetAllClientes(buscarCliente);
+            return Page();
         }
     }
 }

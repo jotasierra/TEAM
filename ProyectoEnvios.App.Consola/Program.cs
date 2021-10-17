@@ -12,10 +12,11 @@ namespace ProyectoEnvios.App.Consola
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Agregando cliente [TESTING]...");
-            AddCliente();
-            //DeleteCliente(1);
+            Console.WriteLine("Cliente... ");
+            //AddCliente();
+            DeleteCliente(8);
             //AddFuncionario();
+            //GetCliente(2);
         }
 
         private static void AddFuncionario()
@@ -26,6 +27,12 @@ namespace ProyectoEnvios.App.Consola
                 fun_apellidos = "[TEST]Testing"
             };
             //_repositorioFuncionario.AddFuncionario(funcionario);
+        }
+
+        private static void GetCliente(int idCliente)
+        {
+            var cliente = _repositorioCliente.GetCliente(idCliente);
+            Console.WriteLine("Consultando cliente... " + cliente.cli_nombre);
         }
 
         private static void AddCliente()

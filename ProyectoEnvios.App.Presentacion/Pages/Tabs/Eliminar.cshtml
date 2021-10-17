@@ -1,0 +1,56 @@
+﻿@page
+@model ProyectoEnvios.App.Presentacion.Pages.EliminarModel
+@{
+    int idCliente = Model.cliente.Id;
+}
+
+<form method="post">
+  <h2>Datos del cliente</h2><br>
+  <div class="form-row">
+    <div class="col">
+      <label for="nombreCliente">Nombre</label>
+      <input type="text" asp-for="cliente.cli_nombre" class="form-control" placeholder="Digite nombre del cliente" disabled>
+    </div>
+    <div class="col">
+      <label for="clienteApellidos">Apellidos</label>
+      <input type="text" asp-for="cliente.cli_apellidos" class="form-control" placeholder="Digite apellidos del cliente" disabled>
+    </div>
+  </div><br>
+  <div class="form-row">
+    <div class="col">
+      <label for="documentoTipo">Tipo de documento</label>
+      <select asp-for="cliente.cli_tipo_documento" class="custom-select mr-sm-2" id="tipoDocumento" disabled>
+        <option selected>Seleccione tipo de documento...</option>
+        <option value="cc">Cédula de ciudadania</option>
+        <option value="ce">Cédula de extranjería</option>
+        <option value="pasaporte">Pasaporte</option>
+        <option value="nit">NIT</option>
+        <option value="pep">PEP</option>
+      </select>
+    </div>
+    <div class="col">
+      <label for="numeroDocumento">Número del documento</label>
+      <input type="text" asp-for="cliente.cli_num_documento" class="form-control" placeholder="Digite número del documento" disabled>
+    </div>
+  </div><br>
+  <div class="form-group">
+    <div>
+      <label for="direccionCliente">Dirección</label>
+      <input type="text" asp-for="cliente.cli_direccion" class="form-control" placeholder="Digite dirección del cliente" disabled>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col">
+      <label for="emailCliente">Email</label>
+      <input type="text" asp-for="cliente.cli_email" class="form-control" placeholder="Digite email completo del cliente" disabled>
+    </div>
+    <div class="col">
+      <label for="telefonoCliente">Número de teléfono</label>
+      <input type="text" asp-for="cliente.cli_telefono" class="form-control" placeholder="Digite número de teléfono del cliente" disabled>
+    </div>
+  </div><br>
+  <div class="alert alert-danger" role="alert">
+    ¡Click en el botón "Eliminar" si está seguro de eliminar al cliente @Model.cliente.cli_nombre @Model.cliente.cli_apellidos!
+  </div>
+  <button type="submit" class="btn btn-danger">Eliminar</button>
+</form>

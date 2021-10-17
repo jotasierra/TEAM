@@ -1,9 +1,17 @@
 ﻿@page
 @model ProyectoEnvios.App.Presentacion.ListadoClientesModel
 @{
+  var buscarCliente = Model.buscarCliente;
 }
 
 <h2>Lista de clientes</h2><br>
+@using (Html.BeginForm())
+  {
+    <p>
+        Búsqueda de cliente (por ID): @Html.TextBox("buscarCliente")  
+        <input type="submit" value="Search" />
+    </p><br>
+  }
 <table class="table">
   <thead class="thead-dark">
     <tr>
@@ -22,8 +30,18 @@
               <td>@cliente.cli_apellidos</td>
               <td>@cliente.cli_telefono</td>
               <td>
-                <a class="btn btn-primary" asp-page="./InformacionCliente" asp-route-clienteId="@cliente.Id">
-                  <i class="far fa-eye"></i>
+                <a class="btn btn-primary table-btn" asp-page="/Tabs/Detalles" asp-route-idCliente="@cliente.Id">
+                  Detalles
+                </a>
+              </td>
+              <td>
+                <a class="btn btn-primary table-btn" asp-page="/Tabs/Editar" asp-route-idCliente="@cliente.Id">
+                    Editar
+                </a>
+              </td>
+              <td>
+                <a class="btn btn-primary table-btn" asp-page="/Tabs/Eliminar" asp-route-idCliente="@cliente.Id">
+                    Eliminar
                 </a>
               </td>
           </tr>

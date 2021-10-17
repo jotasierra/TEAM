@@ -1,41 +1,44 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
-using ProyectoEnvios.App.Persistencia.AppRepositorios;
+
 using ProyectoEnvios.App.Dominio;
+using ProyectoEnvios.App.Persistencia.AppRepositorios;
 
 namespace ProyectoEnvios.App.Presentacion.Pages
 {
-    public class InicioModel : PageModel
+    public class EditarModel : PageModel
     {
         private readonly IRepositorioCliente repositorioCliente;
 
-        public IEnumerable<Cliente> Clientes {get; set;}
-
         [BindProperty]
         public Cliente cliente { get; set; }
-        public string buscarCliente;
 
-        public InicioModel(IRepositorioCliente repositorioCliente)
+        public EditarModel()
         {
-            this.repositorioCliente = repositorioCliente;
+            this.repositorioCliente = new RepositorioCliente(new ProyectoEnvios.App.Persistencia.AppRepositorios.AppContext());
         }
 
-        //private readonly ILogger<InicioModel> _logger;
-
-        //public InicioModel(ILogger<InicioModel> logger)
-        //{
-        //    _logger = logger;
-        //}
-
-        public void OnGet()
+        public IActionResult OnGet(int? idCliente)
         {
-            Clientes = repositorioCliente.GetAllClientes(buscarCliente);
+            if (idCliente.HasValue)
+            {
+                cliente = repositorioCliente.GetCliente(idCliente.Value);
+            }
+            else
+            {
+                cliente = new Cliente();
+            }
+            if (cliente == null)
+            {
+                return RedirectToPage("./NotFound");
+            }
+            else
+                return Page();
+
         }
 
         public IActionResult OnPost()
@@ -56,3 +59,4 @@ namespace ProyectoEnvios.App.Presentacion.Pages
         }
     }
 }
+
